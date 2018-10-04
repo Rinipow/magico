@@ -39,9 +39,9 @@ class MagicoType extends AbstractType
                 ]
             ])
             ->add('description', TextareaType::class, [
-                'label' => 'Longitudine',
+                'label' => 'Descrizione',
                 'attr' => [
-                    'placeholder' => 'Inserisci longitudine centralina',
+                    'placeholder' => 'Inserisci una descrizione',
                 ]
             ])
             ->add('add', SubmitType::class, [

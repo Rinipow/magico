@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e38b1c0a-7124-4c0a-90c9-79d868effc2a" name="Default Changelist" comment="" />
+    <list default="true" id="e38b1c0a-7124-4c0a-90c9-79d868effc2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/MagicoType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/MagicoType.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +29,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="json" value="1" />
-          <entry key="php" value="52" />
+          <entry key="php" value="53" />
           <entry key="twig" value="16" />
           <entry key="xml" value="1" />
           <entry key="yaml" value="4" />
@@ -35,7 +39,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="PHP" value="51" />
+          <entry key="PHP" value="52" />
           <entry key="Scratch" value="1" />
           <entry key="Twig" value="16" />
           <entry key="XML" value="1" />
@@ -45,14 +49,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="php" value="3538" />
+          <entry key="php" value="3564" />
           <entry key="twig" value="770" />
           <entry key="yaml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="3538" />
+          <entry key="PHP" value="3564" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Twig" value="770" />
           <entry key="YAML" value="10" />
@@ -102,6 +106,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Form/MagicoType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="43" column="65" lean-forward="true" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
+              <folding>
+                <element signature="e#29#51#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Repository/MagicoRepository.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,18 +125,6 @@
               <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding>
                 <element signature="e#34#56#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Form/MagicoType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <element signature="e#29#51#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,7 +175,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/magico/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -201,6 +205,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -221,7 +228,6 @@
         <option value="$PROJECT_DIR$/src/Controller/ModifyUserController.php" />
         <option value="$PROJECT_DIR$/src/Repository/MagicoRepository.php" />
         <option value="$PROJECT_DIR$/templates/registration/register.html.twig" />
-        <option value="$PROJECT_DIR$/src/Form/MagicoType.php" />
         <option value="$PROJECT_DIR$/vendor/symfony/framework-bundle/Controller/AbstractController.php" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.php" />
         <option value="$PROJECT_DIR$/templates/user/edit.html.twig" />
@@ -233,6 +239,7 @@
         <option value="$PROJECT_DIR$/templates/magico/edit.html.twig" />
         <option value="$PROJECT_DIR$/src/Controller/MagicoController.php" />
         <option value="$PROJECT_DIR$/templates/magico/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Form/MagicoType.php" />
       </list>
     </option>
   </component>
@@ -444,6 +451,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -572,12 +580,12 @@
       <workItem from="1538604828873" duration="49000" />
       <workItem from="1538604889319" duration="4006000" />
       <workItem from="1538609337504" duration="2752000" />
-      <workItem from="1538641956118" duration="16799000" />
+      <workItem from="1538641956118" duration="16841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23606000" />
+    <option name="totallyTimeSpent" value="23648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -900,16 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/MagicoType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="e#29#51#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Form/ModifyUserType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -977,6 +975,16 @@
           <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
             <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/MagicoType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="43" column="65" lean-forward="true" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
+          <folding>
+            <element signature="e#29#51#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
