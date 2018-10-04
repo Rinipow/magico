@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello!{% endblock %}
+
+{% block body %}
+
+    {{ parent() }}
+    {{ form(form) }}
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+            <th>Description</th>
+
+        </tr>
+        {% for magico in magicos %}
+            <tr>
+            <td>{{ magico.name }}</td>
+            <td>{{ magico.latitude }}</td>
+            <td>{{ magico.longitude }}</td>
+            <td>{{ magico.description }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+
+{% endblock %}

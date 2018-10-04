@@ -1,0 +1,15 @@
+{# empty Twig template #}
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+    {{ parent() }}
+    <h1>
+        Benvenuto:
+        {% if is_granted('ROLE_USER') %}
+            {{ app.user.username }}
+        {% else %}
+            Anonimo
+        {% endif %}
+    </h1>
+{% endblock %}

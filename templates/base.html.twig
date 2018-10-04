@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Magico - {% block page_title 'Blank' %}{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+        {{ dump(app.flashes) }}
+        {% block body %}
+            {{ include('navbar.html.twig') }}
+        {% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

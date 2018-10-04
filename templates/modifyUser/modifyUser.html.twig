@@ -1,0 +1,9 @@
+{# templates/modifyUser/modifyUser.html.twig #}
+
+{{ form_start(form) }}
+    {{ form_row(form.username, {data : app.user.username}) }}
+    {{ form_row(form.email, {data : app.user.email}) }}
+    {{ form_row(form.plainPassword.first) }}
+    {{ form_row(form.plainPassword.second) }}
+
+{{ form_end(form) }}

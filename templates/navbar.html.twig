@@ -1,0 +1,14 @@
+{% block navbar %}
+    <ul>
+        {% if is_granted('ROLE_USER') %}
+            <li>{{ app.user.username }}</li>
+            <li><a href="{{ path('logout') }}">Logout</a></li>
+        {% else %}
+            <li><a href="{{ path('user_registration') }}">Registrati</a></li>
+            <li><a href="{{ path('login_index') }}">Login</a></li>
+        {% endif %}
+    </ul>
+
+{% endblock %}
+
+
